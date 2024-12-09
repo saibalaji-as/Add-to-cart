@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #edb958;
+    color: white;
+  }
+  
+  .navbar h1 {
+    font-size: 1.5rem;
+  }
+  
+  .cart-btn {
+    background-color: #fff;
+    color: #edb958;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .search-product {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px 20px; 
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar h1 {
+      font-size: 1.2rem;
+    }
+  
+    .cart-btn {
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+  }
+  
